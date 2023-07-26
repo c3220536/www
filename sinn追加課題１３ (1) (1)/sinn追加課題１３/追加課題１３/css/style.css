@@ -1,0 +1,32 @@
+h1{
+    position: relative;
+    color: black;
+    background-color: rgb(153, 245, 255);
+    padding: 7px 7px 7px 7px;
+    font-size: 45px;
+    margin-right: -35px;
+    z-index: -1;
+}
+h1::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    left: 20px;
+    bottom: -15px;
+    border-top: 15px;
+    border-bottom: solid 79px transparent;
+    z-index: -2;
+}
+main{
+    background-color: honeydew;
+    background-repeat: repeat-y;
+}
+main img{
+    width: 600px;
+    height: 500px;
+}
+.main_ranking p{
+   border: solid 5px brown;
+}
